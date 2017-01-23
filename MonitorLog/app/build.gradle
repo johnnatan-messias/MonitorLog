@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:22'
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "com.monitorlog"
+        minSdkVersion 10
+        targetSdkVersion 10
+
+        //multiDex support - 65K methods limitation
+        multiDexEnabled true
+        //   compileOptions {
+       //     sourceCompatibility JavaVersion.VERSION_1_7
+         //   targetCompatibility JavaVersion.VERSION_1_7
+        //}
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    //if using mutiDex support
+    dexOptions {
+        javaMaxHeapSize "2g" //2GB lowest value for big sized jars
+        preDexLibraries = false //for --core-library below
+    }
+
+    project.tasks.withType(com.android.build.gradle.tasks.Dex) {
+        additionalParameters=['--core-library']
+    }
+
+    //twitter4j-core and commons-lang jars
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:multidex:1.0.0'
+    compile files('libs/SentiStrengthAndroid.jar')
+    compile files('libs/commons-lang3-3.1.jar')
+    compile files('libs/stanford-corenlp-3.4.1.jar')
+    compile files('libs/stanford-corenlp-models-current-4LG.jar')
+    compile files('libs/ejml-0.23.jar')
+    compile files('libs/google-collections-1.0.jar')
+    compile files('libs/javacsv-2.01.jar')
+    compile files('libs/jsonic-1.2.7.jar')
+    compile files('libs/twitter4j-core-4.0.1.jar')
+    compile files('libs/javax.xml.stream-3.0.jar')
+    compile files('libs/weka-3.6.6-android.jar')
+}

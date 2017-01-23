@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/johnnatanmessias/MacDevelopment/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-351287a957259837dc9d5e516792da2b6f2947f3.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-69af71fc23aefd6a861e6498bcc9685bafc5c083.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/libs/ejml-0.23.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="bbddfab58f872de86570d5296905494fe8c655c7">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/ejml-0.23-753ecaf39e5b6910d7640c84587192129f0aad5f.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/libs/SentiStrengthAndroid.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6780dbc189e6af5494ab7434ff2da34a16af05c7">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/SentiStrengthAndroid-73d09fdbf60610a8a22405a0e9c6b18e00ef4ee4.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/classes-38d5160ff11f2db6b05ac28f66d6bef62c72d131.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/classes-aec1ec5cddccbafdf9acde3ea6816e5c1b34376a.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/libs/commons-lang3-3.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1-06a22de006812098ea101543f73d172d661ce9fa.jar" />
+    </item>
+    <item
+        jar="/Users/johnnatanmessias/Methods/MonitorLog/app/libs/stanford-corenlp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b22695a284a814edd06fdef66fba6e2ddb5e9017">
+        <dex dex="/Users/johnnatanmessias/Methods/MonitorLog/app/build/intermediates/pre-dexed/debug/stanford-corenlp-3.4.1-75a759901f9481f991230e8bc1edcdda6e1a51fb.jar" />
+    </item>
+
+</items>

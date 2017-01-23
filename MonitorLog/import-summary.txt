@@ -1,0 +1,161 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* SentimentalAnalysis
+* lib/
+* lib/.DS_Store
+* lib/SentiStrength-Reversed.jar
+* lib/SentiStrength.jar
+* lib/ejml-0.23.jar
+* lib/maxent/
+* lib/maxent/ASBCunkDetector.class
+* lib/maxent/ASBCunkDict.class
+* lib/maxent/AmbiguityClass.class
+* lib/maxent/AmbiguityClasses.class
+* lib/maxent/CTBunkDict.class
+* lib/maxent/CTBunkDictDetector.class
+* lib/maxent/CWordBooleanExtractor.class
+* lib/maxent/CaselessCompanyNameDetector.class
+* lib/maxent/CompanyNameDetector.class
+* lib/maxent/CountWrapper.class
+* lib/maxent/CtbDict.class
+* lib/maxent/CtbPreDetector.class
+* lib/maxent/CtbSufDetector.class
+* lib/maxent/DataWordTag.class
+* lib/maxent/Dictionary.class
+* lib/maxent/DictionaryExtractor.class
+* lib/maxent/Distsim.class
+* lib/maxent/Extractor.class
+* lib/maxent/ExtractorAllCap.class
+* lib/maxent/ExtractorAllCapitalized.class
+* lib/maxent/ExtractorCNumber.class
+* lib/maxent/ExtractorCapDistLC.class
+* lib/maxent/ExtractorCapLCSeen.class
+* lib/maxent/ExtractorDash.class
+* lib/maxent/ExtractorDistsim.class
+* lib/maxent/ExtractorDistsimConjunction.class
+* lib/maxent/ExtractorFrames$ExtractorCWordCapCase.class
+* lib/maxent/ExtractorFrames$ExtractorContinuousTagConjunction.class
+* lib/maxent/ExtractorFrames$ExtractorThreeTags.class
+* lib/maxent/ExtractorFrames$ExtractorTwoTags.class
+* lib/maxent/ExtractorFrames$ExtractorTwoWords.class
+* lib/maxent/ExtractorFrames$ExtractorTwoWordsTag.class
+* lib/maxent/ExtractorFrames$ExtractorWordLowerCase.class
+* lib/maxent/ExtractorFrames$ExtractorWordTag.class
+* lib/maxent/ExtractorFrames$ExtractorWordTwoTags.class
+* lib/maxent/ExtractorFrames.class
+* lib/maxent/ExtractorFramesRare.class
+* lib/maxent/ExtractorFrenchAdjSuffix.class
+* lib/maxent/ExtractorFrenchAdvSuffix.class
+* lib/maxent/ExtractorFrenchNounSuffix.class
+* lib/maxent/ExtractorFrenchPluralSuffix.class
+* lib/maxent/ExtractorFrenchVerbSuffix.class
+* lib/maxent/ExtractorLetterDigitDash.class
+* lib/maxent/ExtractorMidSentenceCap.class
+* lib/maxent/ExtractorMidSentenceCapC.class
+* lib/maxent/ExtractorSpanishAuxiliaryTag.class
+* lib/maxent/ExtractorSpanishConditionalSuffix.class
+* lib/maxent/ExtractorSpanishGender.class
+* lib/maxent/ExtractorSpanishImperfectErIrSuffix.class
+* lib/maxent/ExtractorSpanishSemiauxiliaryTag.class
+* lib/maxent/ExtractorStartSentenceCap.class
+* lib/maxent/ExtractorUCase.class
+* lib/maxent/ExtractorUpperDigitDash.class
+* lib/maxent/ExtractorVerbalVBNZero.class
+* lib/maxent/ExtractorWordPref.class
+* lib/maxent/ExtractorWordShapeClassifier.class
+* lib/maxent/ExtractorWordShapeConjunction.class
+* lib/maxent/ExtractorWordSuff.class
+* lib/maxent/Extractors.class
+* lib/maxent/ExtractorsConjunction.class
+* lib/maxent/FeatureKey.class
+* lib/maxent/History.class
+* lib/maxent/HistoryTable.class
+* lib/maxent/LambdaSolveTagger.class
+* lib/maxent/ListInstances.class
+* lib/maxent/MaxentTagger$1.class
+* lib/maxent/MaxentTagger$SentenceTaggingProcessor.class
+* lib/maxent/MaxentTagger$TaggerWrapper.class
+* lib/maxent/MaxentTagger.class
+* lib/maxent/MaxentTaggerGUI$1.class
+* lib/maxent/MaxentTaggerGUI$2.class
+* lib/maxent/MaxentTaggerGUI$3.class
+* lib/maxent/MaxentTaggerGUI.class
+* lib/maxent/MaxentTaggerServer$1.class
+* lib/maxent/MaxentTaggerServer$Session.class
+* lib/maxent/MaxentTaggerServer$TaggerClient.class
+* lib/maxent/MaxentTaggerServer.class
+* lib/maxent/PairsHolder.class
+* lib/maxent/RareExtractor.class
+* lib/maxent/ReadDataTagged.class
+* lib/maxent/TTags.class
+* lib/maxent/TagCount.class
+* lib/maxent/TaggerConfig$Mode.class
+* lib/maxent/TaggerConfig.class
+* lib/maxent/TaggerExperiments.class
+* lib/maxent/TaggerFeature.class
+* lib/maxent/TaggerFeatures.class
+* lib/maxent/TemplateHash.class
+* lib/maxent/TestClassifier$TestSentenceProcessor.class
+* lib/maxent/TestClassifier.class
+* lib/maxent/TestSentence.class
+* lib/maxent/documentation/
+* lib/maxent/documentation/MulticoreWrapperDemo$1.class
+* lib/maxent/documentation/MulticoreWrapperDemo.class
+* lib/maxent/documentation/TaggerDemo.class
+* lib/maxent/documentation/TaggerDemo2.class
+* lib/stanford-corenlp-3.5.2.jar
+* lib/stanford-corenlp-models-current-4LG.jar
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.2.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/SentiStrengthAndroid.jar => app/libs/SentiStrengthAndroid.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/lg/.DS_Store => app/src/main/resources/com/lg/.DS_Store
+* src/com/lg/sentiment/.DS_Store => app/src/main/resources/com/lg/sentiment/.DS_Store
+* src/com/lg/sentiment/en-pos-maxent.bin => app/src/main/resources/com/lg/sentiment/en-pos-maxent.bin
+* src/com/monitorlog/.DS_Store => app/src/main/resources/com/monitorlog/.DS_Store
+* src/service/.DS_Store => app/src/main/resources/service/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

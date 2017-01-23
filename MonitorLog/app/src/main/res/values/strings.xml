@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MonitorLog v1.0</string>
+    <string name="copyright">by @johnnatan20</string>
+    <string name="title">MonitorLog</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+    <string name="info">The MonitorLog App is an application for benchmark analysis developed by Johnnatan Messias.</string>
+    <string name="status_header">Sentiment Analysis Method Status:</string>
+    <string name="wait">Please wait, loading</string>
+    <string name="error">Error when the app tried to load</string>
+    <string name="typetext">Type your text here</string>
+    <string name="clear">Clear</string>
+    <string name="title_activity_sentic_net">SenticNetActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_method">Choose a Method</string>
+    <string name="choose_dataset">Choose a Dataset</string>
+
+    <string-array name="methods_array">
+        <item>Afinn</item>
+        <item>Emolex</item>
+        <item>Emoticons</item>
+        <item>EmoticonsDS</item>
+        <item>HappinessIndex</item>
+        <item>MPQA</item>
+        <item>NRCHashtag</item>
+        <item>OpinionLexicon</item>
+        <item>PanasT</item>
+        <item>Sann</item>
+        <item>Sasa</item>
+        <item>SenticNet</item>
+        <item>SentiStrength</item>
+        <item>SoCal</item>
+        <item>Stanford</item>
+        <item>Umigon</item>
+        <item>Vader</item>
+    </string-array>
+
+    <string-array name="dataset_array">
+        <item>10</item>
+        <item>100</item>
+        <item>1K</item>
+        <item>10K</item>
+        <item>100K</item>
+        <item>1M</item>
+    </string-array>
+
+</resources>
